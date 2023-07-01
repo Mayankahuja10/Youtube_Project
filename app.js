@@ -50,7 +50,7 @@
 // getVideos("cats");
 // getVideoDetails("QZHVhDjpEkE");
 const videoCardContainer = document.querySelector('.video-container');
-let api_key = "AIzaSyA23bUjUYTSyOhERLMhjvQ6ZNqh-kbL0OU";
+let api_key = "AIzaSyDRzZCNPxbaQl_kMUMt2Dg9SexUjgHLIfM";
 let video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 fetch(video_http + new URLSearchParams({
